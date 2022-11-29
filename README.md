@@ -1,5 +1,5 @@
 # super_basic_platformer_game_template.py
-suoer basic platformer game template es un intento de recrear un clasico juego de plataformas.
+super basic platformer game template es un intento de recrear un clasico juego de plataformas.
 
 requiere del add on "arcade" para python
 

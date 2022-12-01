@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="14" nextobjectid="1">
+ <editorsettings>
+  <export target="map_level_1.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name=":resources:images/spritesheets/" tilewidth="128" tileheight="128" tilecount="27" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image width="128" height="128" source="tiles/boxCrate_single.webp"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="tiles/dirtCliff_right.webp"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="tiles/dirtHalf.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="tiles/dirtRight.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="tiles/grassHalf_mid.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="tiles/grassHill_left.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="tiles/grassHill_right.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="tiles/grassMid.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="tiles/grassRight.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="tiles/ladderMid1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="tiles/ladderTop1.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="tiles/signExit.webp"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="tiles/signLeft.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="tiles/signRight.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="tiles/snowCenter.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="tiles/snowHalf_left.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="tiles/snowHill_left.webp"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="tiles/stoneCenter.webp"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="tiles/stoneCliff_right.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="tiles/stoneHill_left.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="tiles/stoneHill_right.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="tiles/stoneMid.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="tiles/stoneRight.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="tiles/sandCenter.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="tiles/coinBronze.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="tiles/coinGold.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="tiles/coinSilver.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Platforms" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztl0kOgCAMRQkLpxuo97+nsiA2TRFaS2uiL/kbB+hThhCCnHhmr9zntudBrV9Lj5nIWrgO09Lv/z9s0fKYwjUOPNDwSA4rSG+oOZLqHEAwlAc1Fy09JHiNdw02kLd44HWW83zK0qkuD7jf4udb5L0KZ2S04T3G8F6Fw3F5inQNrDlYukQQDq0OFi6RSAtch54ulAN2KZ0vJA45tbPL3XznvKtVr0Yw0nYOMH0Obw==
+  </data>
+ </layer>
+ <layer id="3" name="Coins" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTZmBgkIbigQQyFOqXZiDsDykK7SAGUOqPwQJG/TEKKAH0yGvYwECXY9QCo/4YfmC0LKI9GEphjMutMkiYWmaONDBQ9Q81gRQaTSwYTGkA3e2E+LS0m9rmSBGhZhSMAkoAADrKA3w=
+  </data>
+ </layer>
+ <layer id="4" name="Enemies" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer id="5" name="Bullets" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer id="6" name="Don't touch" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer id="7" name="Background" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer id="8" name="Foreground" width="50" height="20" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztziENAAAIADAKMPq3pQCGITB/gkcAAACwVd+Bg/wOMGpHRAAd
+  </data>
+ </layer>
+ <layer id="10" name="Moving Platforms" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <layer id="11" name="Ladders" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztz7EJAEAIBEFz7b/er0ER3mAmP7iNmMnh7hodt9TvA0t0AAAAXQ+sjQBG
+  </data>
+ </layer>
+ <layer id="12" name="Player" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+</map>

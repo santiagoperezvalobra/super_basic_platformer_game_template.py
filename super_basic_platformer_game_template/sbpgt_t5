@@ -53,8 +53,6 @@ LAYER_NAME_LADDERS = "Ladders"
 LAYER_NAME_PLAYER = "Player"
 LAYER_NAME_ENEMIES = "Enemies"
 LAYER_NAME_BULLETS = "Bullets"
-LAYER_NAME_DONT_TOUCH = "Don't Touch"
-
 
 def load_texture_pair(filename):
     """
@@ -316,9 +314,6 @@ class GameView(arcade.View):
                 "use_spatial_hash": True,
             },
             LAYER_NAME_COINS: {
-                "use_spatial_hash": True,
-            },
-            LAYER_NAME_DONT_TOUCH: {
                 "use_spatial_hash": True,
             }
         }
@@ -626,8 +621,7 @@ class GameView(arcade.View):
             self.player_sprite,
             [
                 self.scene[LAYER_NAME_COINS],
-                self.scene[LAYER_NAME_ENEMIES],
-                #self.scene[LAYER_NAME_DONT_TOUCH]
+                self.scene[LAYER_NAME_ENEMIES]
             ],
         )
 
